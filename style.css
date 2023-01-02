@@ -1,0 +1,354 @@
+/*Hal-hal utama*/
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;1,100&display=swap');
+
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;     
+  font-family: 'Albert Sans', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+hr {
+  border: 5;
+  border-top: 15px solid purple;
+  clear:both;
+  display:block;
+  background-color:white;
+  height: 1px;
+}
+
+a{color:black;}
+
+table, th, td {
+	border: 1px solid #dddd;
+	border-collapse: collapse;
+	width:100%;
+	text-align:center;
+}
+
+button{
+    width: 300px;
+	 height:80px;
+    background-color: #f9f8fc;
+    border: 2.5px solid #0e172c;
+    transition: background-color 2.2s;
+    transition-duration: 3s;
+    transition: 1.5s;
+	 border-radius:30px
+  }
+  
+button:hover{
+    background-color: pink;
+	 letter-spacing: 4px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+
+.Center {
+            width:200px;
+            height:200px;
+            background-color: blue;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.column {
+  width: 23.3%;
+  border-radius:20px;
+  height:85%;
+  display: inline-block;
+  margin: .8rem;	
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.column:hover {
+  box-shadow: rgb(38, 57, 77) 0px 40px 50px -5px;
+}
+
+/*judul ketik*/
+.judulketik {
+  width: 30ch; /*Jumlah karakter*/
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 1.5em;
+  color:white;
+}
+
+@keyframes typing {from {width: 0}}
+@keyframes blink {50% {border-color: transparent}}
+
+/*============================Header//Navbar============================*/
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  background-image:linear-gradient(-20deg, #647DEE, #7F53AC);
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.5s;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: purple;
+  padding: 14px 30px;
+  border-left: solid 4px #E44B8D;
+}
+
+.navbar button{all: unset;transition:0.5s;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	border-left: solid 4px pink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin:0.5em;
+} 
+
+
+/*============================Konten============================*/
+
+#container {
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+/*Home (konten 1)*/
+#home {
+  background: linear-gradient(to top, #F9C5D1, #9795EF 50%);
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align:center;
+}
+
+#home img{
+	height:320px;
+	width:320px;
+	margin: -7px 0px;
+
+}
+
+/*Penjelasan (konten 2)*/
+#tentang_gw{
+  background: linear-gradient(to top, #9795EF, #F9C5D1 50%);
+  height: 900px;
+  font-size:25px;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#tentang_gw img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 7px 18px #888888;
+  border-radius:15px;
+}
+
+
+/*Mulai (konten 3)*/
+#mulai{
+  background-image: url('bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  height: 900px;
+  padding: 200px 0;
+  text-align:center;
+  width: 100%;
+}
+
+#mulai hr{
+  border-top: 1px solid gray;
+}
+
+.centang{
+	border-radius:20px;
+	background:#90EE90;
+	width:20px;
+}
+
+.cross{
+	border-radius:20px;
+	background:#FFCCCB;
+	width:20px;
+}
+
+
+
+/*Blog (konten 4)*/
+#blog{
+  margin:30px;
+  background: white;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align:center;
+}
+
+#blog hr{border-top: 1px solid gray;}
+
+#blog img{
+	width:100%;height:180px;
+	border-radius:10px 10px 0px 0px;
+}
+
+#blog .column{
+	background-color:white;
+	height:300px;
+	width:21%;
+	text-align:left;
+	float:left;
+	background:#FBF2FF;
+	background-image:linear-gradient(#1FD1F9, #D7A1F9);
+	transition:0.6s;
+}
+
+#blog .column:hover{
+	background-image:linear-gradient(#D7A1F9, #FBF2FF);
+}
+
+
+#artikel{
+	background-image:linear-gradient(white, orange);
+	height:900px;
+}
+
+#artikel hr{border-top: 3px dotted gray;}
+#artikel h1{text-align:center;}
+
+
+/*Credit*/
+
+#layout_kredit{
+  background-image:linear-gradient(180deg, white, #B621FE);
+  text-align:center;
+  height:400px;
+  padding: 140px 0;
+}
+    
+#profile img{
+  width: 50px;
+  height: 50px;
+  border-radius:20px;
+}
+
+#profile img:hover{
+  width: 60px;
+  height: 60px;
+}
+
+#profile .gambarFoto{
+  width: 200px;
+  height: 140px;
+}
+
+#profile .gambarFoto:hover{
+  width: 200px;
+  height: 140px;
+}
+
+#profile li{
+  list-style: none;
+  display:inline-block;
+}
+
+#profile ul{
+  margin-left:-45px;
+}
+
+#profile hr{border-top: 1px solid gray;}
+
+#profile{
+  width:1200px;
+  height:200px;
+  background-color:#fafafa;
+  margin:0 auto;
+  padding:20px;
+  box-shadow: 5px 7px 18px #888888;
+  border-radius:30px;
+  border:1px
+}

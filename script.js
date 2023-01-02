@@ -1,0 +1,1 @@
+var i = "gatau ntar gw tambahin yang keren-keren dah";
