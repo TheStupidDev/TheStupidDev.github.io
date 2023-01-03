@@ -18,6 +18,10 @@ body {
   font-family: 'Albert Sans', sans-serif;
 }
 
+main{
+width: 75%; 
+}
+
 html {
 	scroll-behavior: smooth;
 }
