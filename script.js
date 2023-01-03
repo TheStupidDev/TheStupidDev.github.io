@@ -1,4 +1,4 @@
-var gw = "gatau mau nambahin apa ntar gw tambahin yang keren-keren dah";
+var gw = "lagi gatau mau nambahin apa ntar gw tambahin yang keren-keren dah";
 
 
 function checkMobile(){
