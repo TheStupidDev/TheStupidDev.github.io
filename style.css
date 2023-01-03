@@ -1,4 +1,4 @@
-/*Hal-hal utama*/
+/*main stuff*/
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;1,100&display=swap');
 
 
@@ -89,7 +89,7 @@ button:hover{
 
 /*judul ketik*/
 .judulketik {
-  width: 30ch; /*Jumlah karakter*/
+  width: 24ch; /*Jumlah karakter*/
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -149,7 +149,7 @@ button:hover{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 190px;
+  min-width: 105px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -165,7 +165,7 @@ button:hover{
 
 .dropdown-content a:hover {
 	background-color: #ddd;
-	border-left: solid 4px pink;
+	border-left: solid 2.5px pink;
 }
 
 .dropdown:hover .dropdown-content {
@@ -211,7 +211,7 @@ button:hover{
 #tentang_gw{
   background: linear-gradient(to top, #9795EF, #F9C5D1 50%);
   height: 900px;
-  font-size:25px;
+  font-size:24px;
   display: grid;
   padding: 2rem;
   grid-template-columns: 300px 1fr;
@@ -303,47 +303,47 @@ button:hover{
 
 /*Credit*/
 
-#layout_kredit{
+#socials{
   background-image:linear-gradient(180deg, white, #B621FE);
   text-align:center;
   height:400px;
   padding: 140px 0;
 }
     
-#profile img{
+#contact img{
   width: 50px;
   height: 50px;
   border-radius:20px;
 }
 
-#profile img:hover{
+#contact img:hover{
   width: 60px;
   height: 60px;
 }
 
-#profile .gambarFoto{
+#contact .gambarFoto{
   width: 200px;
   height: 140px;
 }
 
-#profile .gambarFoto:hover{
+#contact .gambarFoto:hover{
   width: 200px;
   height: 140px;
 }
 
-#profile li{
+#contact li{
   list-style: none;
   display:inline-block;
 }
 
-#profile ul{
+#contact ul{
   margin-left:-45px;
 }
 
-#profile hr{border-top: 1px solid gray;}
+#contact hr{border-top: 1px solid gray;}
 
-#profile{
-  width:1200px;
+#contact{
+  width:80%;
   height:200px;
   background-color:#fafafa;
   margin:0 auto;
