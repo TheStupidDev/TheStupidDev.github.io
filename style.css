@@ -1,4 +1,4 @@
-/* stuff */
+/*main stuff*/
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;1,100&display=swap');
 
 
@@ -207,6 +207,8 @@ button:hover{
 
 }
 
+#main{height: 60%; }
+
 /*Penjelasan (konten 2)*/
 #tentang_gw{
   background: linear-gradient(to top, #9795EF, #F9C5D1 50%);
@@ -229,7 +231,7 @@ button:hover{
 
 
 /*Mulai (konten 3)*/
-#mulai{
+#mulai, #tentang_gw_mobile{
   background-image: url('bg2.jpg');
   background-position: center;
   background-size: cover;
@@ -351,4 +353,15 @@ button:hover{
   box-shadow: 5px 7px 18px #888888;
   border-radius:30px;
   border:1px
+}
+
+
+/*MOBILE PORT*/
+.mobileTable{
+	width:80%;
+	border: 3px solid black;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#tentang_gw_mobile{
+	background: linear-gradient(to top, #9795EF, #F9C5D1 50%);
 }
