@@ -1,3 +1,4 @@
+//404
 document.addEventListener("DOMContentLoaded", function() {
 
 var dvd = document.getElementById('404');
