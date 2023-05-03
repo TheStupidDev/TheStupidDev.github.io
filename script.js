@@ -1,3 +1,12 @@
+function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+
+
+/*
 function hideElem(elemID) {
   var x = document.getElementById(elemID);
   if (x.style.display === "none") {
@@ -6,6 +15,7 @@ function hideElem(elemID) {
     x.style.display = "none";
   }
 }
+
 
 function checkMobile(){
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
@@ -18,3 +28,8 @@ else{
   hideElem("tentang_gw_mobile")
  }
 }
+
+
+
+P.S: onload="checkMobile()"
+*/
