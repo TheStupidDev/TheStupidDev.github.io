@@ -358,9 +358,11 @@ button:hover{
 
 /*MOBILE PORT*/
 .mobileTable{
-	width:80%;
+	width:70%;
 	border: 3px solid black;
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	font-size:18px;
+	height:120px;
 }
 #tentang_gw_mobile{
 	background: linear-gradient(to top, #9795EF, #F9C5D1 50%);
