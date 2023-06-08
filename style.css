@@ -89,7 +89,7 @@ button:hover{
 
 /*judul ketik*/
 .judulketik {
-  width: 25ch; /*Jumlah karakter*/
+  width: 35ch; /*Jumlah karakter*/
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
