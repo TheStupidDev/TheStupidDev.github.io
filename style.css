@@ -358,7 +358,7 @@ button:hover{
 
 /*MOBILE PORT*/
 .mobileTable{
-	width:82%;
+	width:90%;
 	border: 3px solid black;
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	font-size:18px;
